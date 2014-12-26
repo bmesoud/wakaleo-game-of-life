@@ -1,8 +1,7 @@
 package com.wakaleo.gameoflife.domain;
 
 public enum Cell {
-// changing stars to pluses for unit tests fail :)just a test for jenkins job
-    LIVE_CELL("+"), DEAD_CELL(".");
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
 
